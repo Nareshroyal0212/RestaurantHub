@@ -1,0 +1,59 @@
+.orders-page{
+
+    padding:40px;
+
+}
+
+.orders-page h1{
+
+    margin-bottom:30px;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+th,td{
+
+    border:1px solid #ddd;
+
+    padding:12px;
+
+    text-align:center;
+
+}
+
+th{
+
+    background:#C0392B;
+
+    color:white;
+
+}
+
+.delete-btn{
+
+    background:#e74c3c;
+
+    color:white;
+
+    border:none;
+
+    padding:8px 15px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+}
+
+.delete-btn:hover{
+
+    background:#c0392b;
+
+}

@@ -1,0 +1,115 @@
+.menu-section{
+    padding:80px 8%;
+    background:#fffaf3;
+    text-align:center;
+}
+
+.menu-section h2{
+    font-size:45px;
+    color:#c0392b;
+    margin-bottom:10px;
+}
+
+.menu-section>p{
+    color:#666;
+    margin-bottom:50px;
+}
+
+.menu-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.menu-card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.menu-card:hover{
+    transform:translateY(-10px);
+}
+
+.menu-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.menu-card h3{
+    margin:15px 0 10px;
+    font-size:24px;
+}
+
+.menu-card p{
+    color:#555;
+    padding:0 20px;
+}
+
+.menu-card span{
+    display:block;
+    margin:15px 0;
+    color:#d35400;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.menu-card button{
+    margin-bottom:20px;
+    padding:12px 28px;
+    border:none;
+    background:#c0392b;
+    color:#fff;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+.menu-card button:hover{
+    background:#f39c12;
+}
+
+/* ================= MENU CATEGORY BUTTONS ================= */
+
+.menu-categories{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:15px;
+    margin-bottom:50px;
+}
+
+.menu-categories button{
+    padding:12px 24px;
+    border:none;
+    border-radius:30px;
+    background:#c0392b;
+    color:#fff;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s ease;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.menu-categories button:hover{
+    background:#f39c12;
+    transform:translateY(-3px);
+}
+
+.menu-categories button:active{
+    transform:scale(.96);
+}
+
+.category{
+    display:inline-block;
+    margin-top:15px;
+    color:#c0392b;
+    font-weight:bold;
+    font-size:14px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}

@@ -1,0 +1,71 @@
+.manage-menu{
+
+    padding:40px;
+
+}
+
+.manage-menu h1{
+
+    margin-bottom:30px;
+
+}
+
+.manage-menu form{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:20px;
+
+    margin-bottom:40px;
+
+}
+
+.manage-menu input,
+.manage-menu textarea{
+
+    padding:12px;
+
+}
+
+.manage-menu button{
+
+    padding:12px;
+
+    background:#C0392B;
+
+    color:white;
+
+    border:none;
+
+    cursor:pointer;
+
+}
+
+.manage-menu table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.manage-menu th,
+.manage-menu td{
+
+    border:1px solid #ddd;
+
+    padding:12px;
+
+    text-align:center;
+
+}
+
+.manage-menu th{
+
+    background:#C0392B;
+
+    color:white;
+
+}

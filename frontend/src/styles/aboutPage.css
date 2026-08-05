@@ -1,0 +1,258 @@
+/* ===========================
+   About Banner
+=========================== */
+
+.about-banner{
+
+    height:55vh;
+
+    background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1600");
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.about-overlay{
+
+    text-align:center;
+
+    color:white;
+
+}
+
+.about-overlay h1{
+
+    font-size:55px;
+
+    margin-bottom:15px;
+
+}
+
+.about-overlay p{
+
+    font-size:22px;
+
+}
+
+/* ===========================
+   Story Section
+=========================== */
+
+.about-story{
+
+    width:90%;
+
+    margin:80px auto;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:60px;
+
+    align-items:center;
+
+}
+
+.about-image img{
+
+    width:100%;
+
+    border-radius:15px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.2);
+
+}
+
+.about-content h2{
+
+    color:#c0392b;
+
+    font-size:40px;
+
+    margin-bottom:25px;
+
+}
+
+.about-content p{
+
+    line-height:1.9;
+
+    color:#555;
+
+    margin-bottom:20px;
+
+    font-size:18px;
+
+}
+
+/* ===========================
+   Mission Vision
+=========================== */
+
+.mission-vision{
+
+    width:90%;
+
+    margin:80px auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:40px;
+
+}
+
+.card{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.card h2{
+
+    color:#c0392b;
+
+    margin-bottom:20px;
+
+}
+
+.card p{
+
+    line-height:1.8;
+
+    color:#555;
+
+}
+
+/* ===========================
+   Why Us
+=========================== */
+
+.why-us{
+
+    width:90%;
+
+    margin:80px auto;
+
+    text-align:center;
+
+}
+
+.why-us h2{
+
+    font-size:38px;
+
+    color:#c0392b;
+
+    margin-bottom:50px;
+
+}
+
+.why-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.why-card{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+    transition:.3s;
+
+}
+
+.why-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.why-card h3{
+
+    color:#c0392b;
+
+    margin-bottom:15px;
+
+}
+
+.why-card p{
+
+    color:#555;
+
+    line-height:1.8;
+
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:900px){
+
+    .about-story{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .mission-vision{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .why-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .about-overlay h1{
+
+        font-size:40px;
+
+    }
+
+    .about-overlay p{
+
+        font-size:18px;
+
+    }
+
+}

@@ -1,0 +1,45 @@
+.offer{
+
+    padding:80px;
+
+    background:#C0392B;
+
+    color:white;
+
+    text-align:center;
+
+}
+
+.offer h1{
+
+    font-size:60px;
+
+    margin:20px 0;
+
+}
+
+.offer p{
+
+    font-size:20px;
+
+}
+
+.offer button{
+
+    margin-top:30px;
+
+    padding:15px 40px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#F4B400;
+
+    color:black;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+}

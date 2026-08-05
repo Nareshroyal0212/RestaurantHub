@@ -1,0 +1,254 @@
+.contact-banner{
+
+    height:320px;
+
+    background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("../assets/images/restaurant.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.contact-overlay{
+
+    text-align:center;
+
+    color:#fff;
+
+}
+
+.contact-overlay h1{
+
+    font-size:55px;
+
+    margin-bottom:15px;
+
+    font-weight:700;
+
+}
+
+.contact-overlay p{
+
+    font-size:20px;
+
+    opacity:.95;
+
+}
+
+.contact-section{
+
+    width:90%;
+
+    margin:70px auto;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:60px;
+
+    align-items:start;
+
+}
+
+.contact-left h2{
+
+    color:#c0392b;
+
+    font-size:38px;
+
+    margin-bottom:15px;
+
+}
+
+.contact-left>p{
+
+    color:#555;
+
+    margin-bottom:35px;
+
+    line-height:1.8;
+
+}
+
+.contact-card{
+
+    background:#fff;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    margin-bottom:20px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.contact-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.contact-card h3{
+
+    color:#c0392b;
+
+    margin-bottom:10px;
+
+}
+
+.contact-card p{
+
+    color:#555;
+
+    line-height:1.6;
+
+}
+
+.contact-right form{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+
+}
+
+.contact-right input,
+
+.contact-right textarea{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-bottom:20px;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+
+    font-size:15px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+.contact-right input:focus,
+
+.contact-right textarea:focus{
+
+    border-color:#c0392b;
+
+}
+
+.contact-right textarea{
+
+    resize:none;
+
+}
+
+.contact-right button{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#c0392b;
+
+    color:#fff;
+
+    font-size:17px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.contact-right button:hover{
+
+    background:#f39c12;
+
+}
+
+.map-section{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:20px 0 80px;
+
+}
+
+.map-section iframe{
+
+    width:90%;
+
+    max-width:1200px;
+
+    height:450px;
+
+    border:none;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+@media(max-width:900px){
+
+    .contact-section{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .contact-overlay h1{
+
+        font-size:38px;
+
+    }
+
+    .contact-overlay p{
+
+        font-size:18px;
+
+    }
+
+    .map-section iframe{
+
+        width:95%;
+
+        height:350px;
+
+    }
+
+}

@@ -1,0 +1,313 @@
+/* ================= NAVBAR ================= */
+
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 7%;
+
+    background:#ffffff;
+
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+
+}
+
+/* ================= LOGO ================= */
+
+.logo{
+
+    font-size:36px;
+
+    font-weight:700;
+
+    color:#C0392B;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.logo:hover{
+
+    color:#E74C3C;
+
+}
+
+/* ================= NAV LINKS ================= */
+
+.nav-links{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    list-style:none;
+
+    gap:28px;
+
+    margin:0;
+
+    padding:0;
+
+}
+
+.nav-links li{
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+/* Normal Links */
+
+.nav-links a{
+
+    text-decoration:none;
+
+    color:#333;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:#C0392B;
+
+}
+
+.nav-links .active{
+
+    color:#C0392B;
+
+}
+
+/* Button Navigation */
+
+.nav-btn{
+
+    background:none;
+
+    border:none;
+
+    cursor:pointer;
+
+    color:#333;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+    padding:0;
+
+}
+
+.nav-btn:hover{
+
+    color:#C0392B;
+
+}
+
+/* ================= RIGHT SIDE ================= */
+
+.auth-buttons{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+}
+
+/* Welcome */
+
+.welcome-text{
+
+    color:#C0392B;
+
+    font-size:17px;
+
+    font-weight:700;
+
+    white-space:nowrap;
+
+}
+
+/* ================= BUTTONS ================= */
+
+.login-btn,
+
+.register-btn,
+
+.logout-btn{
+
+    padding:10px 24px;
+
+    border:none;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+/* Login */
+
+.login-btn{
+
+    background:#C0392B;
+
+    color:#fff;
+
+}
+
+.login-btn:hover{
+
+    background:#A93226;
+
+    transform:translateY(-2px);
+
+}
+
+/* Register */
+
+.register-btn{
+
+    background:#F4B400;
+
+    color:#222;
+
+}
+
+.register-btn:hover{
+
+    background:#F39C12;
+
+    transform:translateY(-2px);
+
+}
+
+/* Logout */
+
+.logout-btn{
+
+    background:#27AE60;
+
+    color:#fff;
+
+}
+
+.logout-btn:hover{
+
+    background:#229954;
+
+    transform:translateY(-2px);
+
+}
+
+/* ================= CART ================= */
+
+.nav-links a[href="/cart"]{
+
+    color:#C0392B;
+
+    font-weight:700;
+
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width:992px){
+
+    .navbar{
+
+        flex-direction:column;
+
+        gap:18px;
+
+        padding:18px;
+
+    }
+
+    .nav-links{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+        gap:18px;
+
+    }
+
+    .auth-buttons{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+    }
+
+}
+
+@media (max-width:600px){
+
+    .logo{
+
+        font-size:28px;
+
+    }
+
+    .nav-links{
+
+        gap:14px;
+
+    }
+
+    .nav-links a,
+
+    .nav-btn{
+
+        font-size:14px;
+
+    }
+
+    .login-btn,
+
+    .register-btn,
+
+    .logout-btn{
+
+        padding:9px 18px;
+
+        font-size:14px;
+
+    }
+
+}

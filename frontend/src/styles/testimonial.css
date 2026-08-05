@@ -1,0 +1,41 @@
+.testimonial{
+
+    padding:80px;
+
+    background:#ffffff;
+
+    text-align:center;
+
+}
+
+.testimonial-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
+    margin-top:40px;
+
+}
+
+.testimonial-grid div{
+
+    background:#FFF8F0;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+.testimonial-grid h3{
+
+    margin-top:20px;
+
+    color:#C0392B;
+
+}

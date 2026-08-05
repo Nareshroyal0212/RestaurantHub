@@ -1,0 +1,53 @@
+.manage-reservation{
+
+    padding:40px;
+
+}
+
+.manage-reservation h1{
+
+    margin-bottom:30px;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+th,td{
+
+    border:1px solid #ddd;
+
+    padding:12px;
+
+    text-align:center;
+
+}
+
+th{
+
+    background:#C0392B;
+
+    color:white;
+
+}
+
+.delete-btn{
+
+    background:red;
+
+    color:white;
+
+    border:none;
+
+    padding:8px 15px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+}

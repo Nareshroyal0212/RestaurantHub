@@ -1,0 +1,65 @@
+.menu-header{
+
+    padding:70px;
+
+    text-align:center;
+
+    background:#FFF8F0;
+
+}
+
+.menu-grid{
+
+    padding:60px;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:30px;
+
+}
+
+.menu-card{
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+.menu-card img{
+
+    width:100%;
+
+    height:250px;
+
+    object-fit:cover;
+
+}
+
+.menu-content{
+
+    padding:20px;
+
+}
+
+.menu-content span{
+
+    color:#C0392B;
+
+    font-weight:bold;
+
+}
+
+.menu-content h4{
+
+    margin-top:20px;
+
+    color:#C0392B;
+
+}

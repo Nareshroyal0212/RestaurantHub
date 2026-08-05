@@ -1,0 +1,83 @@
+.menu-card{
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+    transition:.3s;
+
+}
+
+.menu-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.menu-card img{
+
+    width:100%;
+
+    height:240px;
+
+    object-fit:cover;
+
+}
+
+.menu-card-content{
+
+    padding:20px;
+
+}
+
+.menu-card-content h2{
+
+    margin-bottom:15px;
+
+}
+
+.menu-card-content p{
+
+    color:#666;
+
+    margin-bottom:15px;
+
+}
+
+.menu-card-content span{
+
+    color:#C0392B;
+
+    font-weight:bold;
+
+}
+
+.menu-card-content h3{
+
+    margin:20px 0;
+
+    color:#C0392B;
+
+}
+
+.menu-card-content button{
+
+    width:100%;
+
+    padding:14px;
+
+    background:#C0392B;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}

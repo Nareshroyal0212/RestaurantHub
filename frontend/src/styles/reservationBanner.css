@@ -1,0 +1,45 @@
+.reservation-banner{
+
+    height:45vh;
+
+    background:url("../assets/images/reservation.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+.reservation-overlay{
+
+    width:100%;
+
+    height:100%;
+
+    background:rgba(0,0,0,.6);
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+}
+
+.reservation-overlay h1{
+
+    font-size:60px;
+
+}
+
+.reservation-overlay p{
+
+    margin-top:20px;
+
+    font-size:22px;
+
+}

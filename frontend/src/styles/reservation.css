@@ -1,0 +1,54 @@
+.reservation-section{
+
+    width:90%;
+
+    max-width:700px;
+
+    margin:60px auto;
+
+}
+
+.reservation-section h1{
+
+    text-align:center;
+
+    margin-bottom:35px;
+
+}
+
+.reservation-section form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.reservation-section input,
+.reservation-section textarea{
+
+    padding:15px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+}
+
+.reservation-section button{
+
+    padding:15px;
+
+    background:#C0392B;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}

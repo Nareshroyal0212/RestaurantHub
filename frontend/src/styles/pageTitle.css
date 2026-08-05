@@ -1,0 +1,27 @@
+.page-title{
+
+    padding:70px;
+
+    text-align:center;
+
+    background:#FFF8F0;
+
+}
+
+.page-title h1{
+
+    font-size:50px;
+
+    color:#C0392B;
+
+}
+
+.page-title p{
+
+    margin-top:20px;
+
+    font-size:20px;
+
+    color:#666;
+
+}

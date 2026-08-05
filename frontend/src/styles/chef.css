@@ -1,0 +1,55 @@
+.chef-section{
+
+    padding:80px;
+    background:#FFF8F0;
+    text-align:center;
+
+}
+
+.chef-grid{
+
+    margin-top:50px;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+
+}
+
+.chef-card{
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+.chef-card img{
+
+    width:100%;
+
+    height:280px;
+
+    object-fit:cover;
+
+}
+
+.chef-card h3{
+
+    margin-top:20px;
+
+}
+
+.chef-card p{
+
+    margin:15px;
+
+    color:#666;
+
+}

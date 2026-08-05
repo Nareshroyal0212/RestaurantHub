@@ -1,0 +1,30 @@
+.manage-messages {
+    padding: 40px;
+}
+
+.manage-messages h1 {
+    margin-bottom: 25px;
+    color: #c0392b;
+}
+
+.manage-messages table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+.manage-messages th,
+.manage-messages td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.manage-messages th {
+    background: #c0392b;
+    color: white;
+}
+
+.manage-messages tr:nth-child(even) {
+    background: #f8f8f8;
+}

@@ -1,0 +1,27 @@
+.stats{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    padding:80px;
+
+    background:#C0392B;
+
+    color:white;
+
+    text-align:center;
+
+}
+
+.stats h1{
+
+    font-size:50px;
+
+}
+
+.stats p{
+
+    margin-top:10px;
+
+}
