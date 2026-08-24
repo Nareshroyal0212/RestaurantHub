@@ -7,7 +7,8 @@ function MenuCard({ item }) {
         <div className="menu-card">
 
             <img
-                src={`http://localhost:9090${item.imageUrl}`}
+                //src={`http://localhost:9090${item.imageUrl}`}
+                src={`https://restauranthub-backend-bo2t.onrender.com${item.imageUrl}`}
                 alt={item.foodName}
             />
 
